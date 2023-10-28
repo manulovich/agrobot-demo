@@ -1,1 +1,132 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><link rel="stylesheet" href="main.css"><meta name="viewport" content="width=device-width, user-scalable=yes"><title>Агробот - заказать услуги</title></head><body><main class="wrapper"><header class="header" id="header"><div class="container"><div class="header__inner"><a class="logo" href="/"><img src="images/logo.a82ce535d53b58038834.png"></a><nav class="nav header__nav"><div class="nav__top"><a class="logo logo--mobile nav__mobile-logo"><img src="images/logo.a82ce535d53b58038834.png"></a><button class="burger burger--active nav__burger" id="mobile-burger"><span class="burger__line"></span><span class="burger__line"></span><span class="burger__line"></span></button></div><div class="nav__menu"><ul class="link-list link-list--dir-column"><li class="link-list__link"><a href="/order-service.html">Заказать услуги</a></li></ul></div><div class="nav__bottom"><p class="nav__copyright">© ООО "БОРЩЕВИК.НЕТ", 2023</p></div></nav><button class="burger header__burger" id="desktop-burger"><span class="burger__line"></span><span class="burger__line"></span><span class="burger__line"></span></button></div></div></header><section class="page order"><div class="container"><div class="order__inner"><div class="order__col"><div class="order__info"><div class="order__image"><img src="images/image.631a494cc6824313c7dd.png"></div><div class="order__price"><h2 id="total-price">Итоговая стоимость - 15 000 руб*</h2><span>*без учета удаленности расположения мест работ</span></div></div></div><div class="order__col"><div class="order__header"><h1 class="order__title">Расчет услуг для ваших задач</h1><p class="order__describe"> Выбрано: услуги опрыскивания от клеща </p></div><ul class="order__conf-list"><li class="order__conf-item"><h2>Опрыскивание территории от борщевика</h2><div class="conf-bool-select" id="bool-select-1" data-name="spraying the area against hogweed"><label class="conf-bool-select__option conf-bool-select__option--select" data-price="0"><input type="checkbox" name="spraying the area against hogweed"><div class="conf-bool-select__content"><span class="conf-bool-select__label auto-fs-label">Нет, спасибо</span></div></label><label class="conf-bool-select__option" data-price="5000"><input type="checkbox" name="spraying the area against hogweed" value><div class="conf-bool-select__content"><span class="conf-bool-select__label auto-fs-label">Опрыскивание</span><span class="conf-bool-select__price auto-fs-price">+ 5 000 руб/га</span></div></label></div></li><li class="order__conf-item"><h2>Опрыскивание территории от клеща</h2><div class="conf-bool-select" id="bool-select-2" data-name="spraying the area against ticks"><label class="conf-bool-select__option conf-bool-select__option--select" data-price="0"><input type="checkbox" name="spraying the area against ticks"><div class="conf-bool-select__content"><span class="conf-bool-select__label auto-fs-label">Нет, спасибо</span></div></label><label class="conf-bool-select__option" data-price="5000"><input type="checkbox" name="spraying the area against ticks" value><div class="conf-bool-select__content"><span class="conf-bool-select__label auto-fs-label">Опрыскивание</span><span class="conf-bool-select__price auto-fs-price">+ 5 000 руб/га</span></div></label></div></li><li class="order__conf-item"><h2>Мульчирование борщевика</h2><div class="conf-bool-select" id="bool-select-3" data-name="mulching hogweed"><label class="conf-bool-select__option conf-bool-select__option--select" data-price="0"><input type="checkbox" name="mulching hogweed"><div class="conf-bool-select__content"><span class="conf-bool-select__label auto-fs-label">Нет, спасибо</span></div></label><label class="conf-bool-select__option" data-price="5000"><input type="checkbox" name="mulching hogweed" value><div class="conf-bool-select__content"><span class="conf-bool-select__label auto-fs-label">Мульчерование</span><span class="conf-bool-select__price auto-fs-price">+ 5 000 руб/га</span></div></label></div></li><li class="order__conf-item"><h2>Площадь обработки, га</h2><div class="conf-int-select" id="int-select-1" data-name="processing area"><button class="conf-int-select__btn conf-int-select__btn--dec">-</button><input type="number" name="square" min="1" value="1"><button class="conf-int-select__btn conf-int-select__btn--inc">+</button></div></li><li class="order__conf-item"><h2>Отправка заявки для заказа</h2><div class="email-field"><div class="email-field__input-wrapper"><input type="email" name="email" placeholder="Email для обратной связи"></div><button class="btn btn--bg-pink">Отправить</button></div></li></ul></div></div></div></section><footer class="footer"><div class="container"><div class="footer__inner"><p class="footer__copyright">© ООО "БОРЩЕВИК.НЕТ", 2023</p></div></div></footer></main><script src="order.b0558521b11e39c15004.js"> </script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
+    <title>Агробот - заказать услуги</title>
+</head>
+
+<body>
+    <main class="wrapper">
+        <header class="header" id="header">
+            <div class="container">
+                <div class="header__inner"><a class="logo" href="https://manulovich.github.io/agrobot-demo/"><img src="images/logo.a82ce535d53b58038834.png"></a>
+                    <nav class="nav header__nav">
+                        <div class="nav__top"><a class="logo logo--mobile nav__mobile-logo"><img
+                                    src="images/logo.a82ce535d53b58038834.png"></a><button
+                                class="burger burger--active nav__burger" id="mobile-burger"><span
+                                    class="burger__line"></span><span class="burger__line"></span><span
+                                    class="burger__line"></span></button></div>
+                        <div class="nav__menu">
+                            <ul class="link-list link-list--dir-column">
+                                <li class="link-list__link"><a href="https://manulovich.github.io/agrobot-demo/order-service.html">Заказать услуги</a></li>
+                            </ul>
+                        </div>
+                        <div class="nav__bottom">
+                            <p class="nav__copyright">© ООО "БОРЩЕВИК.НЕТ", 2023</p>
+                        </div>
+                    </nav><button class="burger header__burger" id="desktop-burger"><span
+                            class="burger__line"></span><span class="burger__line"></span><span
+                            class="burger__line"></span></button>
+                </div>
+            </div>
+        </header>
+        <section class="page order">
+            <div class="container">
+                <div class="order__inner">
+                    <div class="order__col">
+                        <div class="order__info">
+                            <div class="order__image"><img src="images/image.631a494cc6824313c7dd.png"></div>
+                            <div class="order__price">
+                                <h2 id="total-price">Итоговая стоимость - 15 000 руб*</h2><span>*без учета удаленности
+                                    расположения мест работ</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order__col">
+                        <div class="order__header">
+                            <h1 class="order__title">Расчет услуг для ваших задач</h1>
+                            <p class="order__describe"> Выбрано: услуги опрыскивания от клеща </p>
+                        </div>
+                        <ul class="order__conf-list">
+                            <li class="order__conf-item">
+                                <h2>Опрыскивание территории от борщевика</h2>
+                                <div class="conf-bool-select" id="bool-select-1"
+                                    data-name="spraying the area against hogweed"><label
+                                        class="conf-bool-select__option conf-bool-select__option--select"
+                                        data-price="0"><input type="checkbox" name="spraying the area against hogweed">
+                                        <div class="conf-bool-select__content"><span
+                                                class="conf-bool-select__label auto-fs-label">Нет, спасибо</span></div>
+                                    </label><label class="conf-bool-select__option" data-price="5000"><input
+                                            type="checkbox" name="spraying the area against hogweed" value>
+                                        <div class="conf-bool-select__content"><span
+                                                class="conf-bool-select__label auto-fs-label">Опрыскивание</span><span
+                                                class="conf-bool-select__price auto-fs-price">+ 5 000 руб/га</span>
+                                        </div>
+                                    </label></div>
+                            </li>
+                            <li class="order__conf-item">
+                                <h2>Опрыскивание территории от клеща</h2>
+                                <div class="conf-bool-select" id="bool-select-2"
+                                    data-name="spraying the area against ticks"><label
+                                        class="conf-bool-select__option conf-bool-select__option--select"
+                                        data-price="0"><input type="checkbox" name="spraying the area against ticks">
+                                        <div class="conf-bool-select__content"><span
+                                                class="conf-bool-select__label auto-fs-label">Нет, спасибо</span></div>
+                                    </label><label class="conf-bool-select__option" data-price="5000"><input
+                                            type="checkbox" name="spraying the area against ticks" value>
+                                        <div class="conf-bool-select__content"><span
+                                                class="conf-bool-select__label auto-fs-label">Опрыскивание</span><span
+                                                class="conf-bool-select__price auto-fs-price">+ 5 000 руб/га</span>
+                                        </div>
+                                    </label></div>
+                            </li>
+                            <li class="order__conf-item">
+                                <h2>Мульчирование борщевика</h2>
+                                <div class="conf-bool-select" id="bool-select-3" data-name="mulching hogweed"><label
+                                        class="conf-bool-select__option conf-bool-select__option--select"
+                                        data-price="0"><input type="checkbox" name="mulching hogweed">
+                                        <div class="conf-bool-select__content"><span
+                                                class="conf-bool-select__label auto-fs-label">Нет, спасибо</span></div>
+                                    </label><label class="conf-bool-select__option" data-price="5000"><input
+                                            type="checkbox" name="mulching hogweed" value>
+                                        <div class="conf-bool-select__content"><span
+                                                class="conf-bool-select__label auto-fs-label">Мульчерование</span><span
+                                                class="conf-bool-select__price auto-fs-price">+ 5 000 руб/га</span>
+                                        </div>
+                                    </label></div>
+                            </li>
+                            <li class="order__conf-item">
+                                <h2>Площадь обработки, га</h2>
+                                <div class="conf-int-select" id="int-select-1" data-name="processing area"><button
+                                        class="conf-int-select__btn conf-int-select__btn--dec">-</button><input
+                                        type="number" name="square" min="1" value="1"><button
+                                        class="conf-int-select__btn conf-int-select__btn--inc">+</button></div>
+                            </li>
+                            <li class="order__conf-item">
+                                <h2>Отправка заявки для заказа</h2>
+                                <div class="email-field">
+                                    <div class="email-field__input-wrapper"><input type="email" name="email"
+                                            placeholder="Email для обратной связи"></div><button
+                                        class="btn btn--bg-pink">Отправить</button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <p class="footer__copyright">© ООО "БОРЩЕВИК.НЕТ", 2023</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="order.b0558521b11e39c15004.js"> </script>
+</body>
+
+</html>
